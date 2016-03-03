@@ -1,0 +1,9 @@
+Property	Label	RangeURI	Format	NotNull	Hidden	MvEnabled	LookupSchema	LookupQuery
+ParticipantID	Participant ID	http://www.w3.org/2001/XMLSchema#string		FALSE	FALSE	FALSE			Used with either VisitID or Date to identify subject and timepoint for assay.
+Date	Date	http://www.w3.org/2001/XMLSchema#dateTime		FALSE	FALSE	FALSE			
+ketamine	Ketamine (ml)	http://www.w3.org/2001/XMLSchema#double		FALSE	FALSE	FALSE			
+dexdomitor	Dexdomitor (ml)	http://www.w3.org/2001/XMLSchema#double		FALSE	FALSE	FALSE			
+weight	Weight (kgs)	http://www.w3.org/2001/XMLSchema#double		FALSE	FALSE	FALSE			
+temperature	Temp (F)	http://www.w3.org/2001/XMLSchema#double		FALSE	FALSE	FALSE			
+comments	Comments	http://www.w3.org/2001/XMLSchema#multiLine		FALSE	FALSE	FALSE			
+bcs	Body Condition Score	http://www.w3.org/2001/XMLSchema#double		FALSE	FALSE	FALSE	
